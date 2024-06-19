@@ -1,4 +1,4 @@
-#Projeto Landing Page
+# Projeto Landing Page
 
 O projeto é um site empresarial/organização genérica para todos os ramos existentes, que possui as seguintes opções:
   - A tela home(tela principal) ao entrar no site;
