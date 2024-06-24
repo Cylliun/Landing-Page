@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 const Container = styled.header`
     * {
-        position: static;
         background-color: #c55959;
         color: #fff;
         display: flex;
@@ -13,6 +12,9 @@ const Container = styled.header`
     }
 
     nav{
+        width: 100%;
+        position: fixed;
+
         #logo{
             padding: 10px 20px;
         }

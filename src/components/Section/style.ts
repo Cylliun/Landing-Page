@@ -12,14 +12,23 @@ const AboutCompany = styled.main`
         color:black;
     }
 
-    .table{
+    .container{
         display:flex;
-        flex-direction: column;
+        flex-direction: row;
+        align-items: center;
     }
 
-    .table.table-text{
-        
-        padding: 15%;
+    .table-text{
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%
+    }
+
+    .table-img{
+        width: 85%;
+        height: 500px;
+        display: flex;
     }
 
 `;

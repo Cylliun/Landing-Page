@@ -1,14 +1,16 @@
 import React from "react";
 import GlobalStyle from "./styled";
 import Header from "./components/Header/header";
-import Section from "./components/Section/section"
+import Main from "./components/Section/main"
+import Main2 from "./components/Section/main2";
 
 function App() {
   return (
     <>
       <GlobalStyle/>
-      <Header />
-      <Section />
+      <Header/>
+      <Main/>
+      <Main2/>
     </>
   );
 }
