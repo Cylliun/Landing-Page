@@ -12,6 +12,7 @@ const Container = styled.header`
     }
 
     nav{
+        display:flexx;
         width: 100%;
         position: fixed;
 
