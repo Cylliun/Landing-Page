@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Container = styled.header`
     * {
         background-color: #c55959;
-        color: #fff;
+        color: #ffff;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -12,7 +12,6 @@ const Container = styled.header`
     }
 
     nav{
-        display:flexx;
         width: 100%;
         position: fixed;
 

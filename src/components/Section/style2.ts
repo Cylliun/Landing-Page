@@ -6,26 +6,32 @@ const Identidade = styled.main`
         padding: 0;
         margin: 0;
         box-sizing: border-box;
-        background-color: aqua;
-        border-radius: 10px;
+        color:#ffff;
+        background-color: #c55959;
+        font-family: 'Times New Roman', Times, serif;
     }
     .container{
         display: flex;
-        flex-direction: row;
-        padding: 25px;
+        padding: 20px;
         gap: 15px;
-        background-color: white;
+        background-color:#808080;
+        flex-wrap: wrap;
     }
 
-    .box{
-        display: flex;
+    .table.identify{
+        flex: 1;
         flex-direction: column;
-        text-align: center;
+        border-radius: 10px;
+        padding: 1rem;
     }
 
-    .box p{
-        font-size: medium;
+    .table.identify h1{
         text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .table.identify p{
+        text-align: justify;
     }
 
 `;

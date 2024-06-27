@@ -8,8 +8,9 @@ const AboutCompany = styled.main`
         justify-content: center;
         padding: 10px 10px;
         align-items: center;
-        background-color: #989A91;
-        color:black;
+        background-color: #808080;
+        color:#ffff;
+        font-family: 'Times New Roman', Times, serif;
     }
 
     .container{
@@ -22,6 +23,7 @@ const AboutCompany = styled.main`
         width: 35%;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         margin-top: 5%
     }
 
