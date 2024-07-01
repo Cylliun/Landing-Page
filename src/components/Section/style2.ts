@@ -15,7 +15,7 @@ const Identidade = styled.main`
         padding: 20px;
         gap: 15px;
         background-color:#808080;
-        flex-wrap: wrap;
+        flex-wrap: wrap
     }
 
     .table.identify{

@@ -16,7 +16,6 @@ function Main() {
                         <img src={homemComputador} alt='Logo da Empresa' />
                     </div>
                 </section>
-                
         </AboutCompany>
     );
 }

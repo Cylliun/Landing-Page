@@ -3,34 +3,30 @@ import styled from "styled-components";
 const AboutCompany = styled.main`
 
     *{
-        display: flex;
-        text-align:justify;
-        justify-content: center;
         padding: 10px 10px;
-        align-items: center;
+        margin: 0;
+        box-sizing: border-box;
         background-color: #808080;
         color:#ffff;
         font-family: 'Times New Roman', Times, serif;
     }
 
-    .container{
+    section{
         display:flex;
-        flex-direction: row;
+        justify-content:space-evenly;
         align-items: center;
     }
 
-    .table-text{
+    .table.table-text{
         width: 35%;
-        display: flex;
         flex-direction: column;
-        justify-content: center;
         margin-top: 5%
     }
 
     .table-img{
-        width: 85%;
-        height: 500px;
-        display: flex;
+        width: 200px;
+        height: 200px;
+        margin-bottom: 5%;
     }
 
 `;
