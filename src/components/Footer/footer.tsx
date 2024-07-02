@@ -8,6 +8,8 @@ function rodaPé () {
 
                 <ul>
                     <h3>Empresa TI</h3>
+                    <br/>
+                    
                     <div className="redes-sociais">
                         <li><a href="#">Instagram</a></li>
                         <li><a href="#">Facebook</a></li>
@@ -16,21 +18,23 @@ function rodaPé () {
                 </ul>
 
                 <ul>
-                    <h4>Inicio</h4>
-                        <li><a href="#">Sobre a Empresa</a></li>
-                        <li><a href="#">Produtos</a></li>
-                        <li><a href="#">Contato</a></li>
+                    <h3>Inicio</h3>
+                    <br/>
+
+                    <li><a href="#">Sobre a Empresa</a></li>
+                    <li><a href="#">Produtos</a></li>
+                    <li><a href="#">Contato</a></li>
                 </ul>
 
                 <ul>
-                    <h4>Suporte</h4>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Chat</a></li>
-                </ul>
-                <p></p>
-            </div>
+                    <h3>Suporte</h3>
+                    <br/><br/>
 
-            <p>&copy; 2024 - Todos os direitos reservados - Empresa TI</p>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Chat</a></li>
+                </ul>
+            </div>
+            <p className="final">&copy; 2024 - Todos os direitos reservados - Empresa TI</p>
         </Footer>
     );
 };
