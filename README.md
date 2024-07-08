@@ -6,7 +6,7 @@ O projeto é um site empresarial/organização genérica para todos os ramos exi
   - breve slogan da empresa e uma imagem;
   - Missão, Visão e Valores;
   - footer com informações da empresa;
-  - 
+
 Além do fácil entendinmento do usuário com suas funcionalidades bem representadas e
 um design simples para compreensão dos mesmos.
 
