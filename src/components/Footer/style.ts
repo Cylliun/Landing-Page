@@ -14,7 +14,7 @@ const Footer = styled.main`
 
     .container{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
         gap: 15px;
         padding: 20px 20px;
